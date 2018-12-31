@@ -66,7 +66,7 @@ const trial_duration = prestim_duration + stim_duration + poststim_duration;
 //a trial will be defined as  stimulus -> fixation'
 
 //probe information
-var num_probes = 6;
+var num_probes = 18;
 var probe_steps = trials_per_block/num_probes;
 var probe_list = [num_practice/2]; //initial default for practice trials
 
