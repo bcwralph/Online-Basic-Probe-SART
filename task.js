@@ -56,7 +56,7 @@ var end_q = 'NA';
 //experimental constants
 const myStims = ("1,2,3,4,5,6,7,8,9").split(",");
 const fontSizes = ("48pt,72pt,94pt,100pt,120pt").split(",");
-const trials_per_block = myStims.length*3; // 100 iterations of 9 = 900 trials
+const trials_per_block = myStims.length*100; // 100 iterations of 9 = 900 trials
 const num_practice = 18; //18
 
 const prestim_duration = 0;
